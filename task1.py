@@ -38,7 +38,6 @@ def get_birthdays_per_week(users):
 if __name__ == "__main__":
     users_data = [
         {"name": "Bill Gates", "birthday": datetime(1955, 10, 28)},
-        {"name": "Alexander Kukla", "birthday": datetime(1986, 3, 19)},
         {"name": "Steve Jobs", "birthday": datetime(1955, 2, 24)},
         {"name": "Stephen Gary Wozniak", "birthday": datetime(1950, 8, 11)},
         {"name": "Linus Benedict Torvalds", "birthday": datetime(1969, 12, 28)},

@@ -44,7 +44,6 @@ def main():
     contacts = {}
     print("Welcome to the assistant bot!")
     while True:
-        # command = input("Enter a command: ").strip().lower()
         user_input = input("Enter a command: ")
         command, *args = parse_input(user_input)
 
